@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 /**
  * Created by vashishta on 8/11/15.
  */
@@ -19,13 +21,20 @@ public class FirstTest {
     @Test
     public void driver() throws Exception {
         WebDriver driver = new FirefoxDriver();
-        driver.get("https:/www.google.com");
+        driver.get("https://github.com/explore");
 
         WebElement element = driver.findElement(By.name("q"));
         element.clear();
-        element.sendKeys("Cheese!");
+        element.sendKeys("automation_selenium");
 
         element.submit();
+
+        List<WebElement> results = driver.findElements(By.tagName("em"));
+        for (WebElement result : results) {
+            if (result.getText() != null && result.getText().equalsIgnoreCase("automation_selenium")) {
+                System.out.println("Hooray");
+            }
+        }
 
     }
 

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="com.synchronisys.automation.selenium.FirstTest" duration-ms="2916" started-at="2015-08-11T21:57:00Z" finished-at="2015-08-11T21:57:03Z">
+  <suite name="com.synchronisys.automation.selenium.FirstTest" duration-ms="5683" started-at="2015-08-11T22:19:43Z" finished-at="2015-08-11T22:19:49Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="2916" started-at="2015-08-11T21:57:00Z" finished-at="2015-08-11T21:57:03Z">
+    <test name="Command line test" duration-ms="5683" started-at="2015-08-11T22:19:43Z" finished-at="2015-08-11T22:19:49Z">
       <class name="com.synchronisys.automation.selenium.FirstTest">
-        <test-method status="PASS" signature="driver()[pri:0, instance:com.synchronisys.automation.selenium.FirstTest@6fb554cc]" name="driver" duration-ms="2905" started-at="2015-08-11T17:57:00Z" finished-at="2015-08-11T17:57:03Z">
+        <test-method status="PASS" signature="driver()[pri:0, instance:com.synchronisys.automation.selenium.FirstTest@6fb554cc]" name="driver" duration-ms="5673" started-at="2015-08-11T18:19:43Z" finished-at="2015-08-11T18:19:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driver -->
-        <test-method status="PASS" signature="first()[pri:0, instance:com.synchronisys.automation.selenium.FirstTest@6fb554cc]" name="first" duration-ms="0" started-at="2015-08-11T17:57:03Z" finished-at="2015-08-11T17:57:03Z">
+        <test-method status="PASS" signature="first()[pri:0, instance:com.synchronisys.automation.selenium.FirstTest@6fb554cc]" name="first" duration-ms="0" started-at="2015-08-11T18:19:49Z" finished-at="2015-08-11T18:19:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- first -->
