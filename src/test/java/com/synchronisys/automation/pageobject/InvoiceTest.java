@@ -18,7 +18,7 @@ public class InvoiceTest {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.typeUsername("aditya@indasil.com");
         loginPage.typePassword("aditya");
-        loginPage.enterPinCode("1234");
+        //loginPage.enterPinCode("1234");
 
         Thread.sleep(1000);
 

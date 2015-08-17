@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE billRequest [
+        <!ELEMENT billRequest (patient)*>
+        <!ELEMENT patient (name|insurance)*>
+        <!ATTLIST patient
+                id CDATA #REQUIRED>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT insurance (#PCDATA)>
+        ]>
+
+
+<billRequest>
+    <patient id="112">
+        <name>Ady</name>
+        <insurance>Kaiser</insurance>
+    </patient>
+</billRequest>
